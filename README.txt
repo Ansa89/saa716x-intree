@@ -35,6 +35,11 @@ patch -p0 < ../Makefile.patch
 patch -p0 < ../uapi.patch
 
 ##
+## Fix some race conditions
+##
+patch -p0 < ../v4l.patch
+
+##
 ## For 3.18 kernels you need a patch for silabs chips
 ##
 
